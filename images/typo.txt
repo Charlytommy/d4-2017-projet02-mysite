@@ -1,0 +1,10 @@
+
+CSS
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+
+font-family: 'Droid Serif', serif;
+
+
+HTML
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Oswald|Playfair+Display:400,700" rel="stylesheet">
