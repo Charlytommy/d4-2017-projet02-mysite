@@ -26,6 +26,9 @@ h2{margin-bottom: 1.3em;}
 
 header h1, h2{
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(110, 24, 25, 1);
+
+
 }
 
  h4, h6 {
@@ -43,13 +46,35 @@ h1 {
 
 h2 {font-size: 1.953em;}
 
-h3 {font-size: 1.563em;}
+h3 {font-size: 1.300em;}
 
 h4 {font-size: 1.25em;}
 
 small, .font_small {font-size: 0.8em;}
 
 .nastyadvert h3 {
+text-align: center;
+color: white;
+position: absolute;
+left: 50%;
+top: 10%;
+transform: translateY(-50%) translateX(-50%);
+font-size: 5em;
+text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.nastyadvert2 h3 {
+text-align: center;
+color: white;
+position: absolute;
+left: 50%;
+top: 10%;
+transform: translateY(-50%) translateX(-50%);
+font-size: 5em;
+text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.nastyadvert3 h3 {
 text-align: center;
 color: white;
 position: absolute;
