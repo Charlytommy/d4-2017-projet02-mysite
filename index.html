@@ -6,6 +6,10 @@
 
 <link rel="stylesheet" href="styles/main.css">
 <link rel="stylesheet" href="styles/typo.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/demo.js"></script>
+
+
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Oswald:400,500,700|Playfair+Display" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
@@ -14,14 +18,14 @@
   <body>
 
 
-
     <div class="menu">
       <ul id="menu_horizontal">
-      <li><a href="#acceuil">Accueil</a></li>
-      <li><a href="#parcours">Parcours</a></li>
-      <li><a href="#stages">Stages</a></li>
-      <li><a href="#projets">Projets</a></li>
+      <li><a id="survol1" class="js-scrollTo" href="#acceuil">Accueil</a></li>
+      <li><a id="survol2" class="js-scrollTo" href="#parcours">Parcours</a></li>
+      <li><a id="survol3" class="js-scrollTo" href="#stages">Stages</a></li>
+      <li><a id="survol4" class="js-scrollTo" href="#projets">Projets</a></li>
       </ul>
+       <STYLE>A {text-decoration: none;} </STYLE>
     </div>
 
 <div id="acceuil">...</div>
@@ -30,7 +34,7 @@
 
   <h1> Thomas CHARLY </h1>
 
-<h2> Design Graphic <h2>
+<h2> <br>Design Graphic <h2>
 
 
 
@@ -70,7 +74,7 @@ September 2013 – June 2015 Tours, France</p>
 </section>
 
 <div id="stages">...</div>
-<div class="nastyadvert">
+<div class="nastyadvert2">
 <h3> Stages</h3>
 
 </div>
@@ -132,7 +136,7 @@ October 2013 Bordeaux, France</p></li>
 </section>
 <div id="projets">...</div>
 
-<div class="nastyadvert">
+<div class="nastyadvert3">
 <h3> Projets</h3>
 
 
@@ -159,15 +163,52 @@ October 2013 Bordeaux, France</p></li>
 <p>L’Assemblée des rois </p>
 </section>
 
-<footer>
-  <ul class="linklist">
-<li><a href="http://type-scale.com/"> Type Scale</a></li>
-<li><a href="http://type-scale.com/"> Type Scale</a></li>
-<li><a href="http://type-scale.com/"> Type Scale</a></li>
-<li><a href="http://type-scale.com/"> Type Scale</a></li>
-</ul>
-</footer>
 
+
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+
+				<p class="footer-links">
+          <a class="js-scrollTo" href="#acceuil">Accueil</a>
+          ·
+          <a  class="js-scrollTo" href="#parcours">Parcours</a>
+        ·
+          <a  class="js-scrollTo" href="#stages">Stages</a>
+          ·
+          <a  class="js-scrollTo" href="#projets">Projets</a>
+				</p>
+
+				<p class="footer-company-name">Thomas CHARLY  &copy; D4 G1</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/Tomscharly"><i class="fa fa-facebook"><img src="styles/icon-01.svgz"></i></a>
+					<a href="https://www.behance.net/tomscharly5a9c"><i class="fa fa-behance"><img src="styles/icon-02.svgz"></i></a>
+					<a href="https://www.linkedin.com/in/thomas-charly-8585a3114/"><i class="fa fa-linkedin"><img src="styles/icon-03.svgz"></i></a>
+					<a href="https://www.instagram.com/tommycharly/"><i class="fa fa-instagram"><img src="styles/icon-04.svgz"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
 
   </body>
 </html>
